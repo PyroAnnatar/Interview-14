@@ -12,7 +12,7 @@ const Pagination = () => {
     setIsLoading(true);
     async function fetchy() {
       try {
-        console.log("fetching");
+        // console.log("fetching");
         const response = await fetch(
           "https://randomuser.me/api?results=19&format=pretty"
         );
@@ -31,7 +31,7 @@ const Pagination = () => {
     }
     fetchy();
   }, []);
-  console.log(data);
+  // console.log(data);
 
   return (
     <div>
